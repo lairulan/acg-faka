@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Google Gemini service cover</title>
+  <desc id="desc">A branded cover for Google and Gemini services on Xitan AI.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <rect width="900" height="520" fill="#e0f2fe" opacity=".5"/>
+  <path d="M0 86 H900" stroke="#4285f4" stroke-width="18"/>
+  <path d="M0 114 H900" stroke="#34a853" stroke-width="18"/>
+  <path d="M0 142 H900" stroke="#fbbc04" stroke-width="18"/>
+  <path d="M0 170 H900" stroke="#ea4335" stroke-width="18"/>
+  <path d="M0 404 C156 322 300 344 452 270 C604 196 730 190 900 136 L900 520 L0 520 Z" fill="#dbeafe" opacity=".72"/>
+  <text x="56" y="246" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Google</text>
+  <text x="60" y="297" fill="#2563eb" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Gemini Advanced 开通服务</text>
+  <text x="60" y="377" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="22">悉檀AI 自助下单开通系统</text>
+  <g transform="translate(640 182)">
+    <rect x="-22" y="-22" width="192" height="192" rx="42" fill="#ffffff" opacity=".96"/>
+    <image href="/assets/brand/product-icons/google.png" x="10" y="10" width="128" height="128"/>
+  </g>
+</svg>

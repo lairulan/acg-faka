@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Claude service cover</title>
+  <desc id="desc">A branded cover for Claude services on Xitan AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3f2f27"/>
+      <stop offset=".5" stop-color="#b45309"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <path d="M0 92 C145 132 228 198 370 210 C556 226 690 152 900 126" fill="none" stroke="#fed7aa" stroke-width="6" opacity=".42"/>
+  <path d="M0 388 C170 324 324 360 480 292 C620 232 720 236 900 196 L900 520 L0 520 Z" fill="#1f130e" opacity=".28"/>
+  <text x="56" y="185" fill="#fff7ed" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Claude</text>
+  <text x="60" y="236" fill="#fed7aa" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Pro 开通 / 续费服务</text>
+  <text x="60" y="316" fill="#ffedd5" font-family="Inter, Arial, sans-serif" font-size="22">悉檀AI 自助下单开通系统</text>
+  <g transform="translate(640 132)">
+    <rect x="-22" y="-22" width="192" height="192" rx="42" fill="#fff7ed" opacity=".96"/>
+    <image href="/assets/brand/product-icons/claude.png" x="10" y="10" width="128" height="128"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cursor service cover</title>
+  <desc id="desc">A branded cover for Cursor services on Xitan AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset=".55" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <path d="M56 112 H344" stroke="#bfdbfe" stroke-width="4" stroke-linecap="round" opacity=".56"/>
+  <path d="M56 356 H530" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" opacity=".46"/>
+  <path d="M0 406 C156 322 298 328 452 246 C606 164 734 152 900 88 L900 520 L0 520 Z" fill="#020617" opacity=".34"/>
+  <text x="56" y="185" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Cursor</text>
+  <text x="60" y="236" fill="#bfdbfe" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Pro 开通 / 续费服务</text>
+  <text x="60" y="316" fill="#dbeafe" font-family="Inter, Arial, sans-serif" font-size="22">悉檀AI 自助下单开通系统</text>
+  <g transform="translate(640 132)">
+    <rect x="-22" y="-22" width="192" height="192" rx="42" fill="#ffffff" opacity=".96"/>
+    <image href="/assets/brand/product-icons/cursor.png" x="10" y="10" width="128" height="128"/>
+  </g>
+</svg>

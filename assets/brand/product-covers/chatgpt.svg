@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">ChatGPT service cover</title>
+  <desc id="desc">A branded cover for ChatGPT services on Xitan AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.52" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <path d="M0 370 C160 292 308 318 458 242 C602 168 722 156 900 104 L900 520 L0 520 Z" fill="#07111f" opacity=".32"/>
+  <path d="M56 116 H352" stroke="#a7f3d0" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <text x="56" y="185" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">ChatGPT</text>
+  <text x="60" y="236" fill="#d1fae5" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Plus 开通 / 续费服务</text>
+  <text x="60" y="316" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="22">悉檀AI 自助下单开通系统</text>
+  <g transform="translate(640 132)">
+    <rect x="-22" y="-22" width="192" height="192" rx="42" fill="#ffffff" opacity=".94"/>
+    <image href="/assets/brand/product-icons/chatgpt.png" x="10" y="10" width="128" height="128"/>
+  </g>
+</svg>
