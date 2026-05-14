@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="悉檀AI服务封面">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="54" x2="870" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.52" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="120" x2="800" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a7f3d0"/>
+      <stop offset="0.6" stop-color="#bfdbfe"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="32" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#line)" stroke-width="3" opacity="0.45">
+    <path d="M122 402C250 286 364 306 492 210s238-96 354 6"/>
+    <path d="M132 184c116 74 230 70 342-12s214-74 354 18"/>
+  </g>
+  <circle cx="728" cy="160" r="92" fill="#ffffff" opacity="0.1"/>
+  <circle cx="728" cy="160" r="58" fill="none" stroke="#d1fae5" stroke-width="8" opacity="0.9"/>
+  <text x="90" y="170" font-family="Heiti SC, Arial Unicode MS, Arial, sans-serif" font-size="48" font-weight="800" fill="#ffffff">悉檀AI</text>
+  <text x="90" y="232" font-family="Heiti SC, Arial Unicode MS, Arial, sans-serif" font-size="30" font-weight="700" fill="#d1fae5">自助下单开通系统</text>
+  <text x="90" y="330" font-family="Heiti SC, Arial Unicode MS, Arial, sans-serif" font-size="24" fill="#e5e7eb">AI 会员 / 工具账号 / 人工开通</text>
+  <text x="90" y="374" font-family="Arial, sans-serif" font-size="18" letter-spacing="4" fill="#fde68a">XITAN AI SERVICE</text>
+</svg>

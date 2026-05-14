@@ -40,6 +40,15 @@ body {
 
 .navbar-acg .navbar-brand {
     font-size: 1.45rem;
+    min-width: 0;
+    max-width: min(420px, 48vw);
+}
+
+.navbar-acg .brand-title {
+    color: #0f766e;
+    font-weight: 800;
+    line-height: 1.15;
+    overflow-wrap: anywhere;
 }
 
 .navbar-acg .nav-link {
@@ -65,6 +74,12 @@ body {
         position: absolute;
         right: 68px;
         top: 14px;
+    }
+    .navbar-acg .navbar-brand {
+        max-width: calc(100vw - 210px);
+    }
+    .navbar-acg .brand-title {
+        font-size: 13px;
     }
 }
 
@@ -397,9 +412,11 @@ body {
 }
 
 .brand-logo {
-    width: 22px;
-    height: 22px;
-    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    flex: 0 0 auto;
+    box-shadow: 0 8px 18px rgba(15, 118, 110, 0.18);
 }
 
 .search-input {

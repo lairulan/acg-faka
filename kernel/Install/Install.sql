@@ -124,7 +124,11 @@ CREATE TABLE `__PREFIX__category`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 
-INSERT INTO `__PREFIX__category` VALUES (1, 'DEMO', 1, '2021-11-26 17:59:45', 0, '/favicon.ico', 1, 0, NULL , NULL);
+INSERT INTO `__PREFIX__category` VALUES (1, 'ChatGPT业务', 1, '2026-05-14 00:00:00', 0, '/assets/brand/xitan-logo.svg', 1, 0, NULL , NULL);
+INSERT INTO `__PREFIX__category` VALUES (2, 'Claude业务', 2, '2026-05-14 00:00:00', 0, '/assets/brand/xitan-logo.svg', 1, 0, NULL , NULL);
+INSERT INTO `__PREFIX__category` VALUES (3, 'Cursor业务', 3, '2026-05-14 00:00:00', 0, '/assets/brand/xitan-logo.svg', 1, 0, NULL , NULL);
+INSERT INTO `__PREFIX__category` VALUES (4, 'Google业务', 4, '2026-05-14 00:00:00', 0, '/assets/brand/xitan-logo.svg', 1, 0, NULL , NULL);
+INSERT INTO `__PREFIX__category` VALUES (5, 'AI工具服务', 5, '2026-05-14 00:00:00', 0, '/assets/brand/xitan-logo.svg', 1, 0, NULL , NULL);
 
 
 DROP TABLE IF EXISTS `__PREFIX__commodity`;
@@ -189,7 +193,14 @@ CREATE TABLE `__PREFIX__commodity`  (
                                         INDEX `recommend`(`recommend` ASC) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
-INSERT INTO `__PREFIX__commodity` VALUES (1, 1, 'DEMO', '<p>该商品是演示商品</p>', '/favicon.ico', 0.00, 1.00, 0.90, 1, 0, '2021-11-26 18:01:30', 1, '8AE80574F3CA98BE', 1, 0, '', 0, 0, 1, 1, NULL, '', 0.00 , NULL,999999, 0, 0, NULL, NULL, 0, 0.00, 0, NULL, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, NULL, 0, 0 ,0 ,0);
+INSERT INTO `__PREFIX__commodity`
+(`id`, `category_id`, `name`, `description`, `cover`, `factory_price`, `price`, `user_price`, `status`, `owner`, `create_time`, `api_status`, `code`, `delivery_way`, `delivery_auto_mode`, `delivery_message`, `contact_type`, `password_status`, `sort`, `coupon`, `shared_id`, `shared_code`, `shared_premium`, `shared_stock`, `stock`, `shared_premium_type`, `seckill_status`, `seckill_start_time`, `seckill_end_time`, `draft_status`, `draft_premium`, `inventory_hidden`, `leave_message`, `recommend`, `send_email`, `only_user`, `purchase_count`, `widget`, `level_price`, `level_disable`, `minimum`, `maximum`, `shared_sync`, `config`, `hide`, `inventory_sync`, `shared_amount_sync`, `shared_config_sync`)
+VALUES
+(1, 1, 'ChatGPT Plus 开通/续费服务（人工确认）', '<p><strong>服务说明：</strong>用于 ChatGPT Plus 账号开通、续费或订阅协助。下单前请确认账号邮箱、订阅状态和可登录情况。</p><p><strong>交付方式：</strong>人工确认后处理，具体时效以客服确认为准。</p><p><strong>售后边界：</strong>虚拟服务交付后，不支持因账号自身风控、地区限制、用户操作失误导致的无理由退款。</p>', '/assets/brand/xitan-cover-ai.svg', 0.00, 1.00, 1.00, 1, 0, '2026-05-14 00:00:00', 0, 'XITAN_CHATGPT_SERVICE', 1, 0, '订单已提交，请等待人工确认；如需加急，请联系页面客服。', 2, 1, 1, 0, NULL, '', 0.00, NULL, 999, 0, 0, NULL, NULL, 0, 0.00, 0, NULL, 1, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(2, 2, 'Claude Pro 开通/续费服务（人工确认）', '<p><strong>服务说明：</strong>用于 Claude Pro 账号开通、续费或订阅协助。请先准备可接收消息的邮箱和账号登录信息。</p><p><strong>交付方式：</strong>人工确认后处理，实际可用性以账号状态和平台规则为准。</p><p><strong>售后边界：</strong>平台风控、地区限制、违规使用等非服务交付问题不属于质保范围。</p>', '/assets/brand/xitan-cover-ai.svg', 0.00, 1.00, 1.00, 1, 0, '2026-05-14 00:00:00', 0, 'XITAN_CLAUDE_SERVICE', 1, 0, '订单已提交，请等待人工确认；如需加急，请联系页面客服。', 2, 1, 2, 0, NULL, '', 0.00, NULL, 999, 0, 0, NULL, NULL, 0, 0.00, 0, NULL, 1, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(3, 3, 'Cursor Pro 开通/续费服务（人工确认）', '<p><strong>服务说明：</strong>用于 Cursor Pro、团队或开发工具订阅协助。下单前请确认邮箱、账号区域和需要的方案。</p><p><strong>交付方式：</strong>人工确认后处理，适合个人开发者和小团队。</p><p><strong>售后边界：</strong>服务完成后请及时检查权益状态；账号后续违规使用导致的限制不属于售后范围。</p>', '/assets/brand/xitan-cover-ai.svg', 0.00, 1.00, 1.00, 1, 0, '2026-05-14 00:00:00', 0, 'XITAN_CURSOR_SERVICE', 1, 0, '订单已提交，请等待人工确认；如需加急，请联系页面客服。', 2, 1, 3, 0, NULL, '', 0.00, NULL, 999, 0, 0, NULL, NULL, 0, 0.00, 0, NULL, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(4, 4, 'Google / Gemini Advanced 开通服务（人工确认）', '<p><strong>服务说明：</strong>用于 Google、Gemini Advanced 等相关服务的开通咨询与人工协助。</p><p><strong>交付方式：</strong>请先通过联系方式确认账号状态，再按客服指引下单。</p><p><strong>售后边界：</strong>地区政策、平台审核、账号安全限制会影响最终处理方式，请下单前确认。</p>', '/assets/brand/xitan-cover-ai.svg', 0.00, 1.00, 1.00, 1, 0, '2026-05-14 00:00:00', 0, 'XITAN_GOOGLE_SERVICE', 1, 0, '订单已提交，请等待人工确认；如需加急，请联系页面客服。', 2, 1, 4, 0, NULL, '', 0.00, NULL, 999, 0, 0, NULL, NULL, 0, 0.00, 0, NULL, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, NULL, 0, 0, 0, 0),
+(5, 5, 'AI工具账号与批量开通咨询', '<p><strong>服务说明：</strong>适合需要多账号、团队订阅、API 中转额度或其他 AI 工具开通的用户。</p><p><strong>交付方式：</strong>请先提交联系方式和需求说明，确认方案后再处理。</p><p><strong>提示：</strong>批量或大额订单建议先联系人工客服确认价格、时效和售后范围。</p>', '/assets/brand/xitan-cover-ai.svg', 0.00, 1.00, 1.00, 1, 0, '2026-05-14 00:00:00', 0, 'XITAN_AI_SERVICE', 1, 0, '订单已提交，请等待人工确认；如需加急，请联系页面客服。', 2, 1, 5, 0, NULL, '', 0.00, NULL, 999, 0, 0, NULL, NULL, 0, 0.00, 0, NULL, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, NULL, 0, 0, 0, 0);
 
 
 
@@ -203,10 +214,10 @@ CREATE TABLE `__PREFIX__config`  (
 ) ENGINE = MyISAM AUTO_INCREMENT = 45 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 
-INSERT INTO `__PREFIX__config` VALUES (1, 'shop_name', '悉檀AI');
-INSERT INTO `__PREFIX__config` VALUES (2, 'title', '悉檀AI - 智能数字服务平台');
-INSERT INTO `__PREFIX__config` VALUES (3, 'description', '悉檀AI智能数字服务平台');
-INSERT INTO `__PREFIX__config` VALUES (4, 'keywords', '悉檀AI,AI,数字服务,自动发货');
+INSERT INTO `__PREFIX__config` VALUES (1, 'shop_name', '悉檀AI自助下单开通系统');
+INSERT INTO `__PREFIX__config` VALUES (2, 'title', '悉檀AI自助下单开通系统 - AI会员与工具服务');
+INSERT INTO `__PREFIX__config` VALUES (3, 'description', '悉檀AI提供AI会员、工具账号、订阅续费与人工开通服务');
+INSERT INTO `__PREFIX__config` VALUES (4, 'keywords', '悉檀AI,AI开通,ChatGPT,Claude,Cursor,Gemini,自助下单');
 INSERT INTO `__PREFIX__config` VALUES (14, 'user_theme', 'Cartoon');
 INSERT INTO `__PREFIX__config` VALUES (5, 'registered_state', '1');
 INSERT INTO `__PREFIX__config` VALUES (6, 'registered_type', '0');
@@ -217,7 +228,7 @@ INSERT INTO `__PREFIX__config` VALUES (10, 'sms_config', '{\"accessKeyId\":\"\",
 INSERT INTO `__PREFIX__config` VALUES (11, 'email_config', '{\"smtp\":\"\",\"port\":\"\",\"username\":\"\",\"password\":\"\"}');
 INSERT INTO `__PREFIX__config` VALUES (12, 'login_verification', '1');
 INSERT INTO `__PREFIX__config` VALUES (13, 'forget_type', '0');
-INSERT INTO `__PREFIX__config` VALUES (15, 'notice', '<p><b><font color=\"#f9963b\">本程序为开源程序，使用者造成的一切法律后果与作者无关。</font></b></p>');
+INSERT INTO `__PREFIX__config` VALUES (15, 'notice', '<div style="line-height:1.8;color:#1f2937"><div style="background:#0f172a;color:#fff;padding:22px;margin-bottom:16px;border:1px solid #0f766e"><div style="font-size:12px;letter-spacing:2px;color:#a7f3d0;margin-bottom:8px;font-weight:700">SERVICE NOTICE</div><div style="font-size:22px;font-weight:800">悉檀AI自助下单开通系统</div><div style="font-size:13px;color:#cbd5e1;margin-top:6px">下单前请先阅读服务规则，提交订单即视为同意以下说明。</div></div><div style="background:#ecfdf5;border:2px solid #10b981;padding:16px;margin-bottom:14px"><strong style="color:#065f46">下单规则</strong><p style="margin:8px 0 0">建议注册账号后下单，方便查看订单、保存记录和享受后续会员价格。请填写可联系邮箱，并为订单设置查询密码，避免订单信息被他人查询。</p></div><div style="background:#eff6ff;border:2px solid #3b82f6;padding:16px;margin-bottom:14px"><strong style="color:#1d4ed8">交付说明</strong><p style="margin:8px 0 0">本站以 AI 会员、工具账号、订阅续费和人工开通服务为主。不同平台的处理时效、账号要求和售后范围不同，请以商品详情和客服确认为准。</p></div><div style="background:#fffbeb;border:2px solid #f59e0b;padding:16px;margin-bottom:14px"><strong style="color:#92400e">重要提醒</strong><p style="margin:8px 0 0">虚拟服务交付后，请第一时间检查权益状态并妥善保存订单信息。因账号自身风控、地区限制、违规使用或个人操作失误产生的问题，不属于无理由退款范围。</p></div><div style="background:#f8fafc;border:1px solid #cbd5e1;padding:14px"><strong>批量与大额需求</strong><p style="margin:8px 0 0">企业、团队、多账号或大额开通需求，请先联系人工确认方案、价格和交付周期。</p></div></div>');
 INSERT INTO `__PREFIX__config` VALUES (16, 'trade_verification', '1');
 INSERT INTO `__PREFIX__config` VALUES (17, 'recharge_welfare', '0');
 INSERT INTO `__PREFIX__config` VALUES (18, 'recharge_welfare_config', '');
@@ -233,7 +244,7 @@ INSERT INTO `__PREFIX__config` VALUES (28, 'cash_type_wechat', '1');
 INSERT INTO `__PREFIX__config` VALUES (29, 'cash_cost', '5');
 INSERT INTO `__PREFIX__config` VALUES (30, 'cash_min', '100');
 INSERT INTO `__PREFIX__config` VALUES (31, 'cname', '');
-INSERT INTO `__PREFIX__config` VALUES (32, 'background_url', '/assets/admin/images/login/bg.jpg');
+INSERT INTO `__PREFIX__config` VALUES (32, 'background_url', '/assets/brand/xitan-bg.svg');
 INSERT INTO `__PREFIX__config` VALUES (33, 'default_category', '0');
 INSERT INTO `__PREFIX__config` VALUES (34, 'substation_display_list', '[]');
 INSERT INTO `__PREFIX__config` VALUES (35, 'closed', '0');
