@@ -1,0 +1,8 @@
+/runtime/
+/assets/cache/
+/kernel/Install/Lock
+/kernel/Install/*.tmp
+/kernel/Install/OS/
+/kernel/Install/Update/
+/config/terms
+/.DS_Store

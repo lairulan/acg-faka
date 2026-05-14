@@ -1,8 +1,11 @@
 <p align="center">
-  <a href="https://faka.wiki/">
-    <img src="https://raw.githubusercontent.com/lizhipay/acg-faka/refs/heads/main/favicon.ico" width="120" height="120" style="border-radius: 20px;" alt="异次元店铺系统">
+  <a href="https://github.com/lairulan/acg-faka">
+    <img src="./favicon.ico" width="120" height="120" style="border-radius: 20px;" alt="悉檀AI">
   </a>
 </p>
+
+<h1 align="center">悉檀AI</h1>
+<p align="center">智能数字服务平台，基于 PHP 8 的自动发货与个人店铺系统。</p>
 
 <br>
 <p align="center">
@@ -22,10 +25,10 @@
 >
 > 使用本程序即表示您已充分理解并同意本法律声明的所有内容。
 
-## 快速体验
-- 后台演示：[http://162.14.111.118:91/admin](http://162.14.111.118:91/admin)  账号：demo@demo.com 密码：123456
-- 前台演示：[http://162.14.111.118:91](http://162.14.111.118:91) 账号：为了明天美好而战斗 密码：123456
-- 文档地址：[https://faka.wiki](https://faka.wiki)
+## 项目说明
+- 当前品牌：悉檀AI
+- 后台地址：安装完成后访问 `/admin`
+- 上游文档：[https://faka.wiki](https://faka.wiki)
 
 ## 功能简介
 
@@ -49,7 +52,7 @@
 ## 安装教程
 
 - 在安装之前，请检查你的系统环境，`php>=8.0`，`MySQL版本>=5.6[不推荐5.6后续升级可能会有问题，推荐5.7或者8.0]`，因为使用了大量的PHP8注解以及PHP8的新特性，所以php版本不得不从8.0起，这里还需要注意。
-- 将源码下载至你的服务器、或者使用composer下载源码：`composer create-project lizhipay/acg-faka`
+- 将源码下载至你的服务器：`git clone https://github.com/lairulan/acg-faka.git`
 - 以上步骤完成后，然后配置伪静态，Apache无需配置，根目录已经有.htaccess文件了，但如果你是Nginx，则需要配置伪静态。
 - 下面是Nginx伪静态规则：
 ```

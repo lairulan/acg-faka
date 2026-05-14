@@ -1,9 +1,9 @@
 {
-  "name": "lizhipay/acg-faka",
+  "name": "lairulan/acg-faka",
   "type": "project",
-  "description": "一款基于php8开发的原生虚拟发卡系统、个人店铺系统！",
+  "description": "悉檀AI智能数字服务平台，基于 PHP 8 的自动发货与个人店铺系统。",
   "keywords": [
-    "lizhipay",
+    "悉檀AI",
     "acg-shop",
     "faka",
     "个人发卡",
@@ -14,16 +14,16 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "lizhipay",
-      "email": "acged@aliyun.com",
-      "homepage": "https://github.com/lizhipay/acg-faka",
+      "name": "悉檀AI",
+      "email": "",
+      "homepage": "https://github.com/lairulan/acg-faka",
       "role": "Developer"
     }
   ],
   "support": {
     "docs": "https://faka.wiki",
-    "issues": "https://github.com/lizhipay/acg-faka/issues",
-    "source": "https://github.com/lizhipay/acg-faka"
+    "issues": "https://github.com/lairulan/acg-faka/issues",
+    "source": "https://github.com/lairulan/acg-faka"
   },
   "require": {
     "php": ">=8.0.0",

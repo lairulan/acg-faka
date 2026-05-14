@@ -16,7 +16,7 @@ interface Config
      */
     const INFO = [
         "NAME" => "默认模板",
-        "AUTHOR" => "荔枝",
+        "AUTHOR" => "悉檀AI",
         "VERSION" => "1.0.1",
         "WEB_SITE" => "#",
         "DESCRIPTION" => "默认模板",
