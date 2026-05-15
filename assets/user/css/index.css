@@ -491,6 +491,86 @@ body {
     padding: 0 16px 16px 16px;
 }
 
+.contact-strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin: 16px 0;
+    padding: 14px 16px;
+    border: 1px solid rgba(15, 118, 110, .22);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .78);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, .06);
+}
+
+.contact-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+}
+
+.contact-kicker {
+    color: #0f766e;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.contact-copy strong {
+    color: #111827;
+    font-size: 15px;
+    line-height: 1.25;
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.contact-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 34px;
+    padding: 7px 10px;
+    border: 1px solid rgba(15, 23, 42, .1);
+    border-radius: 999px;
+    background: #fff;
+    color: #334155;
+    font-size: 13px;
+    line-height: 1;
+    white-space: nowrap;
+    box-shadow: 0 3px 10px rgba(15, 23, 42, .08);
+}
+
+.contact-pill:hover {
+    color: #0f766e;
+}
+
+.contact-pill b {
+    color: #111827;
+    font-weight: 800;
+}
+
+.contact-pill-wechat {
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+    .contact-strip {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .contact-actions {
+        justify-content: flex-start;
+    }
+}
+
 .muted {
     color: var(--acg-text-muted);
 }
